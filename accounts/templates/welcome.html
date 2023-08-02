@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{% block page_title %} Welcome {% endblock %}
+{% block content %}
+<div class="container W-25 justify-content-center align-items-center pc">
+	<div class="container cn">
+		<div class="row">
+			<div class="col-md-12">
+				{% include "partials/_messages.html" %}
+				<div class="card justify-content-center border border-dark">
+					<div class="card-header text-center chb w">
+						<h5 class="ch5">Welcome {{ user.username }}</h5>
+					</div>
+					<div class="card-body">
+						<p class="text-center cb">You have successfully logged in.</p>
+						<div class="text-center "><a class="cb" href="{% url 'change_password' %}"><i class="fas fa-arrow-alt-circle-right c"></i>change my password</a></div>
+						<div class="text-center "><a class="cb c" href="{% url 'logout' %}"><i class="fas fa-arrow-alt-circle-right c"></i>Log Out</a></div>
+					</div>
+				</div>
+			</div>
+  		</div>
+	</div>
+</div>
+{% endblock content %}

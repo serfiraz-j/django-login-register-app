@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+{% block page_title %} Login {% endblock %}
+{% block content %} 
+<div class="container h-50  w-50 justify-content-center align-items-center pc">
+	<div class="container cn">
+	  <div class="row">
+		  <div class="col-md-12">
+	      <div class="card justify-content-center border border-dark">
+		      <div class="card-header text-center chb l">
+			      <h5 class="ch5">Login</h5>
+		      </div>
+		      <div class="card-body">
+		        <form method="POST" novalidate>
+              {% csrf_token %}
+
+              {% for field in form %}
+              <div class="mb-3">
+                <labe for="{{field.id_for_label }}" class="form-label cb">{{field.label}}</label>
+                {{field}}
+              </div>
+              {% endfor %}
+              
+              <div class="row">
+                <div class="col-md-2">
+                  <button type="submit" name="login" class="btn btn-primary cb">login</button>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <a href="{% url 'register' %}">Don't have an account? Register now</a>
+                </div>
+              </div>
+              <br>
+              {% include "partials/_messages.html" %}
+            </form>        
+		    </div>
+	    </div>
+	  </div>
+  </div>
+</div>
+{% endblock %}
