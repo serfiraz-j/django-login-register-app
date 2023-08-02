@@ -18,11 +18,11 @@
 
 <h2><strong>Screenshots:</strong></h2>
 
-![s1](https://github.com/serfiraz-j/login_register_app/assets/75641519/e128ca3d-2d03-4728-a0d4-a21d95571836)
+![s1](https://github.com/serfiraz-j/django_login_register_app/assets/75641519/065f19b4-0779-4c14-ade0-4812640990d2)
 
-![s2](https://github.com/serfiraz-j/login_register_app/assets/75641519/935e41b6-293b-4a12-b763-1eb043f19f9f)
+![s2](https://github.com/serfiraz-j/django_login_register_app/assets/75641519/4a834642-aa22-458f-bb87-5aefc0ae3598)
 
-![s3](https://github.com/serfiraz-j/login_register_app/assets/75641519/6f6c1be2-f9dc-4cfe-8e7c-a082a15c7497)
+![s3](https://github.com/serfiraz-j/django_login_register_app/assets/75641519/e1e5ad5c-8bfc-435c-bacb-a4927e719526)
 
-![ll](https://github.com/serfiraz-j/login_register_app/assets/75641519/4c26f825-6951-49a0-a843-97ba34e5b7d4)
+![ll](https://github.com/serfiraz-j/django_login_register_app/assets/75641519/a4c5e564-0fd8-4123-aa62-fd0f5f62de0d)
 
