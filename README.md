@@ -1,8 +1,8 @@
 <h1>#Login And Registration App<h1/>
-<h2><strong>Versions:</strong></h2>
+<h2><strong>Versions</strong></h2>
 <p>Python 3.11.0</p>
 <p>Django 3.2.7</p>
-<h2><strong>Usage with venv step by step:</strong></h2
+<h2><strong>Usage with venv step by step</strong></h2
 <ol>
 <li>git clone <a href="https://github.com/serfiraz-j/login_register_app.git">https://github.com/serfiraz-j/login_register_app.git</a></li>
 <li>python3 -m venv myenv</li>
@@ -16,7 +16,7 @@
 </ol>
 
 
-<h2><strong>Screenshots:</strong></h2>
+<h2><strong>Screenshots</strong></h2>
 
 ![s1](https://github.com/serfiraz-j/django_login_register_app/assets/75641519/065f19b4-0779-4c14-ade0-4812640990d2)
 
