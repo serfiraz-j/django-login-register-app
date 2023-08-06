@@ -9,7 +9,7 @@
 <li>source myenv\bin\activate</li>
 <li>pip3 install Django==3.2.7</li>
 <li>cd login_register_app</li>
-<li>python3 manage.py migrate</li>
+<li>python3 manage.py makemigrations</li>
 <li>python3 manage.py migrate</li>
 <li>python3 manage.py runserver</li>
 <li>Login to http://127.0.0.1:8000</li>
